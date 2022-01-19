@@ -12,7 +12,7 @@ export const PermissionsScreen = () => {
       <StatusBar backgroundColor='#483d8b' animated={true}/>
 
       <Text style={{fontSize: 30, color: 'white'}}>Permissions Screen</Text>
-      <Text style={{marginVertical: 10}}>Status: {JSON.stringify(permissions, null, 5)}</Text>
+      <Text style={{marginVertical: 10, color: 'white'}}>Status: {JSON.stringify(permissions, null, 5)}</Text>
 
       <CustomButton
         title={ (permissions.locationStatus === 'blocked') 
